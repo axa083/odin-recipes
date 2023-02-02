@@ -1,1 +1,1 @@
-This is a website to practise HTML and pushing source code to Github via git on the CLI.
+This is a website to practise **HTML** and pushing source code to **Github** via git on the **CLI**.
