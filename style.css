@@ -1,10 +1,13 @@
+*{
+  border: 3px solid #FF62D3;
+}
+
 html {
   background-color: #FFFFFF;
   background-image: linear-gradient(180deg, #6284FF 0%, #62FF8E 50%, #FFDD62 100%);
   color: #FF62D3;
   min-height: 100%;
-  display: flex;
-  flex-direction: column;
+  box-sizing: border-box;
 }
 
 body {
@@ -12,32 +15,31 @@ body {
   font-family: Manrope, Verdana, sans-serif;
 }
 
-img {
-  height: auto;
-  width: 400px;
+.korean-flag {
+  margin: auto;
+  display: flex;
 }
 
-
-.korean-flag {
-  display: block;
+img {
   margin-left: auto;
   margin-right: auto;
+  max-width: 400px;
 }
 
 #homediv {
   display: flex;
-  justify-content: space-between;
-  max-width: 400px;
-  align-content: stretch
-
-}
-
-#recipediv{
-  width: 50%;
+  flex-direction: column;
+  max-width: 100%;
+  text-align: center;
 }
 
 #homeh1{
   text-align: center;
+  font-weight: 950px;
+}
+
+.flexitems {
+  flex: 1;
 }
 
 ul {
@@ -73,4 +75,9 @@ a:hover {
 /* selected link */
 a:active {
   color: #FF62D3;
+}
+
+footer {
+  text-align: center;
+  margin-top: 150px;
 }
